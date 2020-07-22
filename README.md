@@ -1,3 +1,7 @@
+This is a fork of ibnuda's Squiggle keyboard, with minor (aesthetic) changes
+for myself!
+
+
 # Squiggle Keyboard
 
 It's a keyboard family which based on my circumstances, preferences, and
