@@ -3,15 +3,15 @@ $fn = 60;
 bottom_thickness = 3;
 middle_thickness = 7;
 switch_thickness = 3;
-top_thickness = 11;
+top_thickness = 7;
 
 is_36 = false;
 
 is_case = true;
 
-is_goldberg = false;
+is_goldberg = true;
 
-is_high = false;
+is_high = true;
 
 module sector(radius, angles, fn = 60)
 {

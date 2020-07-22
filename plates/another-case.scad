@@ -13,7 +13,7 @@ is_36 = false;
 
 is_case = true;
 
-is_goldberg = false;
+is_goldberg = true;
 
 is_high = true;
 
