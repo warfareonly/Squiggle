@@ -5,7 +5,7 @@ $fn = 60;
 bottom_thickness = 3;
 middle_thickness = 7;
 switch_thickness = 3;
-top_thickness = 11;
+top_thickness = 9;
 
 use_tenting_screws = true;
 
@@ -15,7 +15,7 @@ is_case = true;
 
 is_goldberg = true;
 
-is_high = true;
+is_high = false;
 
 module
 bottom_plate()
