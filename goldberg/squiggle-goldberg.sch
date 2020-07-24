@@ -13,34 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 6275 925 
-NoConn ~ 6275 1025
-NoConn ~ 6275 1525
-NoConn ~ 7677 925 
-NoConn ~ 7675 1125
-NoConn ~ 7675 1325
-NoConn ~ 7675 1525
-NoConn ~ 7675 1425
-NoConn ~ 6275 1325
-Text GLabel 6275 1625 0    50   Input ~ 0
-COL0
-Text GLabel 6275 1725 0    50   Input ~ 0
-COL1
-Text GLabel 6275 1825 0    50   Input ~ 0
-COL2
-Text GLabel 6275 1925 0    50   Input ~ 0
-COL3
-Text GLabel 6275 2025 0    50   Input ~ 0
-COL4
-Text GLabel 7675 2025 2    50   Input ~ 0
-ROW3
-Text GLabel 7675 1925 2    50   Input ~ 0
-ROW2
-Text GLabel 7675 1825 2    50   Input ~ 0
-ROW1
-Text GLabel 7675 1725 2    50   Input ~ 0
-ROW0
-NoConn ~ 7675 1625
 $Comp
 L squiggle:switch SW1
 U 1 1 5E360FEB
@@ -548,58 +520,11 @@ Text GLabel 5150 3700 3    50   Input ~ 0
 COL4
 Wire Wire Line
 	1900 2200 1900 3700
-$Comp
-L squiggle:promicro U2
-U 1 1 5E2C8BA7
-P 6975 1675
-F 0 "U2" H 6975 2712 60  0000 C CNN
-F 1 "ProMicro" H 6975 2606 60  0000 C CNN
-F 2 "footprints:promicro" H 7075 625 60  0001 C CNN
-F 3 "" H 7075 625 60  0000 C CNN
-	1    6975 1675
-	1    0    0    -1  
-$EndComp
-NoConn ~ 6275 1125
-NoConn ~ 6275 1225
-Text GLabel 6275 1425 0    50   Input ~ 0
-SDA
 Wire Wire Line
 	4350 2200 4350 2800
 Connection ~ 4350 2900
-NoConn ~ 9025 1175
-Text GLabel 9025 1075 2    50   Input ~ 0
+Text GLabel 9225 2525 2    50   Input ~ 0
 SDA
-$Comp
-L squiggle:trrs U1
-U 1 1 5E2CB886
-P 8675 975
-F 0 "U1" H 8903 1278 60  0000 L CNN
-F 1 "TRRS" H 8903 1172 60  0000 L CNN
-F 2 "footprints:trrs" H 8825 975 60  0001 C CNN
-F 3 "" H 8825 975 60  0001 C CNN
-	1    8675 975 
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7675 1025 8300 1025
-Wire Wire Line
-	8300 1025 8300 850 
-Wire Wire Line
-	8300 850  9250 850 
-Wire Wire Line
-	9250 850  9250 1275
-Wire Wire Line
-	9250 1275 9025 1275
-Wire Wire Line
-	7675 1225 8300 1225
-Wire Wire Line
-	8300 1225 8300 1500
-Wire Wire Line
-	8300 1500 9250 1500
-Wire Wire Line
-	9250 1500 9250 1375
-Wire Wire Line
-	9250 1375 9025 1375
 $Comp
 L squiggle:switch SW7
 U 1 1 5EA92A20
@@ -703,4 +628,125 @@ Wire Wire Line
 Connection ~ 3550 2900
 Wire Wire Line
 	3550 2900 3550 3700
+$Comp
+L power:VCC #PWR0101
+U 1 1 5F1A77F3
+P 10450 950
+F 0 "#PWR0101" H 10450 800 50  0001 C CNN
+F 1 "VCC" H 10465 1123 50  0000 C CNN
+F 2 "" H 10450 950 50  0001 C CNN
+F 3 "" H 10450 950 50  0001 C CNN
+	1    10450 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F1A8317
+P 10450 950
+F 0 "#FLG0101" H 10450 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 10450 1123 50  0000 C CNN
+F 2 "" H 10450 950 50  0001 C CNN
+F 3 "~" H 10450 950 50  0001 C CNN
+	1    10450 950 
+	1    0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F1AF287
+P 10850 950
+F 0 "#FLG0102" H 10850 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 10850 1123 50  0000 C CNN
+F 2 "" H 10850 950 50  0001 C CNN
+F 3 "~" H 10850 950 50  0001 C CNN
+	1    10850 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5F1AFA13
+P 10850 950
+F 0 "#PWR0102" H 10850 700 50  0001 C CNN
+F 1 "GND" H 10855 777 50  0000 C CNN
+F 2 "" H 10850 950 50  0001 C CNN
+F 3 "" H 10850 950 50  0001 C CNN
+	1    10850 950 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 3050 0    50   Input ~ 0
+SDA
+Text GLabel 7500 3350 2    50   Input ~ 0
+ROW0
+Text GLabel 7500 3450 2    50   Input ~ 0
+ROW1
+Text GLabel 7500 3550 2    50   Input ~ 0
+ROW2
+Text GLabel 6100 3650 0    50   Input ~ 0
+COL4
+Text GLabel 6100 3550 0    50   Input ~ 0
+COL3
+Text GLabel 6100 3450 0    50   Input ~ 0
+COL2
+Text GLabel 6100 3350 0    50   Input ~ 0
+COL1
+Text GLabel 6100 3250 0    50   Input ~ 0
+COL0
+Text GLabel 7500 3650 2    50   Input ~ 0
+ROW3
+Wire Wire Line
+	7500 2650 8350 2650
+Wire Wire Line
+	8350 2650 8350 2350
+Wire Wire Line
+	8350 2350 9500 2350
+Wire Wire Line
+	8350 3000 8350 2850
+Wire Wire Line
+	8350 2850 7500 2850
+NoConn ~ 6100 2550
+NoConn ~ 6100 2650
+NoConn ~ 6100 2750
+NoConn ~ 6100 2850
+NoConn ~ 6100 3150
+NoConn ~ 7500 2550
+NoConn ~ 7500 2750
+NoConn ~ 7500 2950
+NoConn ~ 7500 3050
+NoConn ~ 7500 3150
+NoConn ~ 7500 3250
+$Comp
+L squiggle-goldberg-rescue:promicro-squiggle U2
+U 1 1 5F1D02CC
+P 6800 3300
+F 0 "U2" H 6800 4443 60  0000 C CNN
+F 1 "promicro-squiggle" H 6800 4337 60  0000 C CNN
+F 2 "footprints:promicro" H 6800 4231 60  0000 C CNN
+F 3 "" H 6900 2250 60  0000 C CNN
+	1    6800 3300
+	1    0    0    -1  
+$EndComp
+Text GLabel 6100 2950 0    50   Input ~ 0
+SCL
+Text GLabel 9225 2625 2    50   Input ~ 0
+SCL
+$Comp
+L squiggle:trrs U1
+U 1 1 5E2CB886
+P 8875 2425
+F 0 "U1" H 9103 2728 60  0000 L CNN
+F 1 "TRRS" H 9103 2622 60  0000 L CNN
+F 2 "footprints:trrs" H 9025 2425 60  0001 C CNN
+F 3 "" H 9025 2425 60  0001 C CNN
+	1    8875 2425
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9500 2350 9500 2725
+Wire Wire Line
+	9500 2725 9225 2725
+Wire Wire Line
+	9300 3000 9300 2825
+Wire Wire Line
+	9300 2825 9225 2825
+Wire Wire Line
+	9300 3000 8350 3000
 $EndSCHEMATC
