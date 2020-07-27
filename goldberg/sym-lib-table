@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name squiggle)(type Legacy)(uri ${KIPRJMOD}/../libs/symbols/squiggle.lib)(options "")(descr ""))
   (lib (name squiggle-goldberg-rescue)(type Legacy)(uri ${KIPRJMOD}/squiggle-goldberg-rescue.lib)(options "")(descr ""))
+  (lib (name this_keeb)(type Legacy)(uri /Users/bharatgarhewal/Desktop/keyboard/ergoslab/pcb/symbols/this_keeb.lib)(options "")(descr ""))
 )

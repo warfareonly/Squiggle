@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L squiggle:switch SW1
+L squiggle-goldberg-rescue:switch-squiggle SW1
 U 1 1 5E360FEB
 P 1600 800
 F 0 "SW1" H 1600 1055 50  0000 C CNN
@@ -38,7 +38,7 @@ $EndComp
 Wire Wire Line
 	1300 800  1300 950 
 $Comp
-L squiggle:switch SW2
+L squiggle-goldberg-rescue:switch-squiggle SW2
 U 1 1 5E363F7D
 P 1600 1500
 F 0 "SW2" H 1600 1755 50  0000 C CNN
@@ -62,7 +62,7 @@ $EndComp
 Wire Wire Line
 	1300 1500 1300 1650
 $Comp
-L squiggle:switch SW3
+L squiggle-goldberg-rescue:switch-squiggle SW3
 U 1 1 5E366E44
 P 1600 2200
 F 0 "SW3" H 1600 2455 50  0000 C CNN
@@ -92,7 +92,7 @@ Wire Wire Line
 	1900 1500 1900 2200
 Connection ~ 1900 2200
 $Comp
-L squiggle:switch SW4
+L squiggle-goldberg-rescue:switch-squiggle SW4
 U 1 1 5E36F499
 P 2400 800
 F 0 "SW4" H 2400 1055 50  0000 C CNN
@@ -116,7 +116,7 @@ $EndComp
 Wire Wire Line
 	2100 800  2100 950 
 $Comp
-L squiggle:switch SW5
+L squiggle-goldberg-rescue:switch-squiggle SW5
 U 1 1 5E36F4A6
 P 2400 1500
 F 0 "SW5" H 2400 1755 50  0000 C CNN
@@ -140,7 +140,7 @@ $EndComp
 Wire Wire Line
 	2100 1500 2100 1650
 $Comp
-L squiggle:switch SW6
+L squiggle-goldberg-rescue:switch-squiggle SW6
 U 1 1 5E36F4B3
 P 2400 2200
 F 0 "SW6" H 2400 2455 50  0000 C CNN
@@ -170,7 +170,7 @@ Wire Wire Line
 	2700 1500 2700 2200
 Connection ~ 2700 2200
 $Comp
-L squiggle:switch SW8
+L squiggle-goldberg-rescue:switch-squiggle SW8
 U 1 1 5E37DE80
 P 3250 800
 F 0 "SW8" H 3250 1055 50  0000 C CNN
@@ -194,7 +194,7 @@ $EndComp
 Wire Wire Line
 	2950 800  2950 950 
 $Comp
-L squiggle:switch SW9
+L squiggle-goldberg-rescue:switch-squiggle SW9
 U 1 1 5E37DE8D
 P 3250 1500
 F 0 "SW9" H 3250 1755 50  0000 C CNN
@@ -218,7 +218,7 @@ $EndComp
 Wire Wire Line
 	2950 1500 2950 1650
 $Comp
-L squiggle:switch SW10
+L squiggle-goldberg-rescue:switch-squiggle SW10
 U 1 1 5E37DE9A
 P 3250 2200
 F 0 "SW10" H 3250 2455 50  0000 C CNN
@@ -248,7 +248,7 @@ Wire Wire Line
 	3550 1500 3550 2200
 Connection ~ 3550 2200
 $Comp
-L squiggle:switch SW12
+L squiggle-goldberg-rescue:switch-squiggle SW12
 U 1 1 5E37DEBB
 P 4050 800
 F 0 "SW12" H 4050 1055 50  0000 C CNN
@@ -272,7 +272,7 @@ $EndComp
 Wire Wire Line
 	3750 800  3750 950 
 $Comp
-L squiggle:switch SW13
+L squiggle-goldberg-rescue:switch-squiggle SW13
 U 1 1 5E37DEC8
 P 4050 1500
 F 0 "SW13" H 4050 1755 50  0000 C CNN
@@ -296,7 +296,7 @@ $EndComp
 Wire Wire Line
 	3750 1500 3750 1650
 $Comp
-L squiggle:switch SW14
+L squiggle-goldberg-rescue:switch-squiggle SW14
 U 1 1 5E37DED5
 P 4050 2200
 F 0 "SW14" H 4050 2455 50  0000 C CNN
@@ -320,7 +320,7 @@ $EndComp
 Wire Wire Line
 	3750 2200 3750 2350
 $Comp
-L squiggle:switch SW15-1
+L squiggle-goldberg-rescue:switch-squiggle SW15-1
 U 1 1 5E37DEE2
 P 4050 2900
 F 0 "SW15-1" H 4050 3155 50  0000 C CNN
@@ -350,7 +350,7 @@ Wire Wire Line
 	4350 1500 4350 2200
 Connection ~ 4350 2200
 $Comp
-L squiggle:switch SW16
+L squiggle-goldberg-rescue:switch-squiggle SW16
 U 1 1 5E38B255
 P 4850 800
 F 0 "SW16" H 4850 1055 50  0000 C CNN
@@ -374,7 +374,7 @@ $EndComp
 Wire Wire Line
 	4550 800  4550 950 
 $Comp
-L squiggle:switch SW17
+L squiggle-goldberg-rescue:switch-squiggle SW17
 U 1 1 5E38B262
 P 4850 1500
 F 0 "SW17" H 4850 1755 50  0000 C CNN
@@ -398,7 +398,7 @@ $EndComp
 Wire Wire Line
 	4550 1500 4550 1650
 $Comp
-L squiggle:switch SW18
+L squiggle-goldberg-rescue:switch-squiggle SW18
 U 1 1 5E38B26F
 P 4850 2200
 F 0 "SW18" H 4850 2455 50  0000 C CNN
@@ -422,7 +422,7 @@ $EndComp
 Wire Wire Line
 	4550 2200 4550 2350
 $Comp
-L squiggle:switch SW19-1
+L squiggle-goldberg-rescue:switch-squiggle SW19-1
 U 1 1 5E38B27C
 P 4850 2800
 F 0 "SW19-1" H 4850 3055 50  0000 C CNN
@@ -523,10 +523,8 @@ Wire Wire Line
 Wire Wire Line
 	4350 2200 4350 2800
 Connection ~ 4350 2900
-Text GLabel 9225 2525 2    50   Input ~ 0
-SDA
 $Comp
-L squiggle:switch SW7
+L squiggle-goldberg-rescue:switch-squiggle SW7
 U 1 1 5EA92A20
 P 2400 2900
 F 0 "SW7" H 2400 3155 50  0000 C CNN
@@ -550,7 +548,7 @@ $EndComp
 Wire Wire Line
 	2100 2900 2100 3050
 $Comp
-L squiggle:switch SW11
+L squiggle-goldberg-rescue:switch-squiggle SW11
 U 1 1 5EA92A2F
 P 3250 2900
 F 0 "SW11" H 3250 3155 50  0000 C CNN
@@ -580,7 +578,7 @@ Connection ~ 3750 3250
 Wire Wire Line
 	3750 3250 4550 3250
 $Comp
-L squiggle:switch SW15-2
+L squiggle-goldberg-rescue:switch-squiggle SW15-2
 U 1 1 5EAAD852
 P 4050 2800
 F 0 "SW15-2" H 4050 3055 50  0000 C CNN
@@ -591,7 +589,7 @@ F 3 "" H 4050 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L squiggle:switch SW19-2
+L squiggle-goldberg-rescue:switch-squiggle SW19-2
 U 1 1 5EABF5EA
 P 4850 2900
 F 0 "SW19-2" H 4850 3155 50  0000 C CNN
@@ -672,81 +670,414 @@ F 3 "" H 10850 950 50  0001 C CNN
 	1    10850 950 
 	1    0    0    -1  
 $EndComp
-Text GLabel 6100 3050 0    50   Input ~ 0
+Text GLabel 5950 5100 0    50   Input ~ 0
 SDA
-Text GLabel 7500 3350 2    50   Input ~ 0
+Text GLabel 8400 5500 2    50   Input ~ 0
 ROW0
-Text GLabel 7500 3450 2    50   Input ~ 0
+Text GLabel 8400 5600 2    50   Input ~ 0
 ROW1
-Text GLabel 7500 3550 2    50   Input ~ 0
+Text GLabel 8400 5700 2    50   Input ~ 0
 ROW2
-Text GLabel 6100 3650 0    50   Input ~ 0
+Text GLabel 7000 5800 0    50   Input ~ 0
 COL4
-Text GLabel 6100 3550 0    50   Input ~ 0
+Text GLabel 7000 5700 0    50   Input ~ 0
 COL3
-Text GLabel 6100 3450 0    50   Input ~ 0
+Text GLabel 7000 5600 0    50   Input ~ 0
 COL2
-Text GLabel 6100 3350 0    50   Input ~ 0
+Text GLabel 7000 5500 0    50   Input ~ 0
 COL1
-Text GLabel 6100 3250 0    50   Input ~ 0
+Text GLabel 7000 5400 0    50   Input ~ 0
 COL0
-Text GLabel 7500 3650 2    50   Input ~ 0
+Text GLabel 8400 5800 2    50   Input ~ 0
 ROW3
-Wire Wire Line
-	7500 2650 8350 2650
-Wire Wire Line
-	8350 2650 8350 2350
-Wire Wire Line
-	8350 2350 9500 2350
-Wire Wire Line
-	8350 3000 8350 2850
-Wire Wire Line
-	8350 2850 7500 2850
-NoConn ~ 6100 2550
-NoConn ~ 6100 2650
-NoConn ~ 6100 2750
-NoConn ~ 6100 2850
-NoConn ~ 6100 3150
-NoConn ~ 7500 2550
-NoConn ~ 7500 2750
-NoConn ~ 7500 2950
-NoConn ~ 7500 3050
-NoConn ~ 7500 3150
-NoConn ~ 7500 3250
+NoConn ~ 7000 4700
+NoConn ~ 7000 5300
+NoConn ~ 8400 4700
+NoConn ~ 8400 4900
+NoConn ~ 8400 5100
+NoConn ~ 8400 5200
+NoConn ~ 8400 5300
+NoConn ~ 8400 5400
 $Comp
 L squiggle-goldberg-rescue:promicro-squiggle U2
 U 1 1 5F1D02CC
-P 6800 3300
-F 0 "U2" H 6800 4443 60  0000 C CNN
-F 1 "promicro-squiggle" H 6800 4337 60  0000 C CNN
-F 2 "footprints:promicro" H 6800 4231 60  0000 C CNN
-F 3 "" H 6900 2250 60  0000 C CNN
-	1    6800 3300
+P 7700 5450
+F 0 "U2" H 7700 6593 60  0000 C CNN
+F 1 "promicro-squiggle" H 7700 6487 60  0000 C CNN
+F 2 "footprints:promicro" H 7700 6381 60  0000 C CNN
+F 3 "" H 7800 4400 60  0000 C CNN
+	1    7700 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 6100 2950 0    50   Input ~ 0
+Text GLabel 5950 5200 0    50   Input ~ 0
 SCL
-Text GLabel 9225 2625 2    50   Input ~ 0
-SCL
+Wire Wire Line
+	7000 5100 6100 5100
+Wire Wire Line
+	7000 5200 6350 5200
 $Comp
-L squiggle:trrs U1
-U 1 1 5E2CB886
-P 8875 2425
-F 0 "U1" H 9103 2728 60  0000 L CNN
-F 1 "TRRS" H 9103 2622 60  0000 L CNN
-F 2 "footprints:trrs" H 9025 2425 60  0001 C CNN
-F 3 "" H 9025 2425 60  0001 C CNN
-	1    8875 2425
+L Device:R_Small R1
+U 1 1 5F1CC693
+P 6350 4800
+F 0 "R1" H 6409 4846 50  0000 L CNN
+F 1 "4.7K" H 6409 4755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6350 4800 50  0001 C CNN
+F 3 "~" H 6350 4800 50  0001 C CNN
+	1    6350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5F1CD747
+P 6100 4800
+F 0 "R2" H 6159 4846 50  0000 L CNN
+F 1 "4.7K" H 6159 4755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" H 6100 4800 50  0001 C CNN
+F 3 "~" H 6100 4800 50  0001 C CNN
+	1    6100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5F1CE861
+P 6350 4550
+F 0 "#PWR0103" H 6350 4400 50  0001 C CNN
+F 1 "VCC" H 6365 4723 50  0000 C CNN
+F 2 "" H 6350 4550 50  0001 C CNN
+F 3 "" H 6350 4550 50  0001 C CNN
+	1    6350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 4550 6350 4650
+Wire Wire Line
+	6350 4650 6100 4650
+Wire Wire Line
+	6100 4650 6100 4700
+Connection ~ 6350 4650
+Wire Wire Line
+	6350 4650 6350 4700
+Wire Wire Line
+	6100 4900 6100 5100
+Connection ~ 6100 5100
+Wire Wire Line
+	6100 5100 5950 5100
+Wire Wire Line
+	6350 4900 6350 5200
+Connection ~ 6350 5200
+Wire Wire Line
+	6350 5200 5950 5200
+Text GLabel 7000 4800 0    50   Input ~ 0
+DATA
+$Comp
+L power:GND #PWR0104
+U 1 1 5F1E4EB5
+P 6850 4050
+F 0 "#PWR0104" H 6850 3800 50  0001 C CNN
+F 1 "GND" H 6855 3877 50  0000 C CNN
+F 2 "" H 6850 4050 50  0001 C CNN
+F 3 "" H 6850 4050 50  0001 C CNN
+	1    6850 4050
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9500 2350 9500 2725
+	7000 4900 6700 4900
 Wire Wire Line
-	9500 2725 9225 2725
+	6700 4900 6700 5000
 Wire Wire Line
-	9300 3000 9300 2825
+	6700 5000 7000 5000
 Wire Wire Line
-	9300 2825 9225 2825
+	6700 4900 6700 4050
 Wire Wire Line
-	9300 3000 8350 3000
+	6700 4050 6850 4050
+Connection ~ 6700 4900
+$Comp
+L squiggle-goldberg-rescue:trrs-squiggle U1
+U 1 1 5E2CB886
+P 9625 4500
+F 0 "U1" H 9853 4803 60  0000 L CNN
+F 1 "TRRS" H 9853 4697 60  0000 L CNN
+F 2 "footprints:trrs" H 9775 4500 60  0001 C CNN
+F 3 "" H 9775 4500 60  0001 C CNN
+	1    9625 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5F213BAE
+P 9975 5100
+F 0 "#PWR0105" H 9975 4850 50  0001 C CNN
+F 1 "GND" H 9980 4927 50  0000 C CNN
+F 2 "" H 9975 5100 50  0001 C CNN
+F 3 "" H 9975 5100 50  0001 C CNN
+	1    9975 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 5F2149AC
+P 9975 4400
+F 0 "#PWR0106" H 9975 4250 50  0001 C CNN
+F 1 "VCC" H 9990 4573 50  0000 C CNN
+F 2 "" H 9975 4400 50  0001 C CNN
+F 3 "" H 9975 4400 50  0001 C CNN
+	1    9975 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9975 4600 9975 4400
+Wire Wire Line
+	9975 4900 9975 5100
+Text GLabel 10600 4800 2    50   Input ~ 0
+DATA
+Wire Wire Line
+	10600 4800 9975 4800
+NoConn ~ 9975 4700
+$Comp
+L power:GND #PWR0107
+U 1 1 5F220861
+P 8575 4375
+F 0 "#PWR0107" H 8575 4125 50  0001 C CNN
+F 1 "GND" H 8580 4202 50  0000 C CNN
+F 2 "" H 8575 4375 50  0001 C CNN
+F 3 "" H 8575 4375 50  0001 C CNN
+	1    8575 4375
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 4800 8575 4800
+Wire Wire Line
+	8575 4800 8575 4375
+$Comp
+L power:VCC #PWR0108
+U 1 1 5F2236CA
+P 8775 4375
+F 0 "#PWR0108" H 8775 4225 50  0001 C CNN
+F 1 "VCC" H 8790 4548 50  0000 C CNN
+F 2 "" H 8775 4375 50  0001 C CNN
+F 3 "" H 8775 4375 50  0001 C CNN
+	1    8775 4375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 5000 8775 5000
+Wire Wire Line
+	8775 5000 8775 4375
+$Comp
+L this_keeb:CONN_01X04 P1
+U 1 1 5F1EB6B3
+P 925 6900
+F 0 "P1" H 1003 6986 50  0000 L CNN
+F 1 "OLED" H 1003 6895 50  0000 L CNN
+F 2 "footprints:SSD_1306_128x32" H 1003 6804 50  0001 L CNN
+F 3 "" H 925 6900 50  0001 C CNN
+	1    925  6900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP1
+U 1 1 5F1EE409
+P 2125 5350
+F 0 "JP1" H 2125 5614 50  0000 C CNN
+F 1 "L_GND" H 2125 5523 50  0000 C CNN
+F 2 "footprints:Jumper" H 2125 5350 50  0001 C CNN
+F 3 "~" H 2125 5350 50  0001 C CNN
+	1    2125 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP2
+U 1 1 5F1FD7D8
+P 2125 5650
+F 0 "JP2" H 2125 5914 50  0000 C CNN
+F 1 "L_VCC" H 2125 5823 50  0000 C CNN
+F 2 "footprints:Jumper" H 2125 5650 50  0001 C CNN
+F 3 "~" H 2125 5650 50  0001 C CNN
+	1    2125 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP3
+U 1 1 5F1FE6BC
+P 2125 5925
+F 0 "JP3" H 2125 6189 50  0000 C CNN
+F 1 "L_SCL" H 2125 6098 50  0000 C CNN
+F 2 "footprints:Jumper" H 2125 5925 50  0001 C CNN
+F 3 "~" H 2125 5925 50  0001 C CNN
+	1    2125 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP4
+U 1 1 5F1FEC89
+P 2125 6200
+F 0 "JP4" H 2125 6464 50  0000 C CNN
+F 1 "L_SDA" H 2125 6373 50  0000 C CNN
+F 2 "footprints:Jumper" H 2125 6200 50  0001 C CNN
+F 3 "~" H 2125 6200 50  0001 C CNN
+	1    2125 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP5
+U 1 1 5F20899C
+P 2150 6625
+F 0 "JP5" H 2150 6889 50  0000 C CNN
+F 1 "R_GND" H 2150 6798 50  0000 C CNN
+F 2 "footprints:Jumper" H 2150 6625 50  0001 C CNN
+F 3 "~" H 2150 6625 50  0001 C CNN
+	1    2150 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP6
+U 1 1 5F209028
+P 2150 6925
+F 0 "JP6" H 2150 7189 50  0000 C CNN
+F 1 "R_VCC" H 2150 7098 50  0000 C CNN
+F 2 "footprints:Jumper" H 2150 6925 50  0001 C CNN
+F 3 "~" H 2150 6925 50  0001 C CNN
+	1    2150 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP7
+U 1 1 5F2095FB
+P 2150 7200
+F 0 "JP7" H 2150 7464 50  0000 C CNN
+F 1 "R_SCL" H 2150 7373 50  0000 C CNN
+F 2 "footprints:Jumper" H 2150 7200 50  0001 C CNN
+F 3 "~" H 2150 7200 50  0001 C CNN
+	1    2150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP8
+U 1 1 5F209CC1
+P 2150 7500
+F 0 "JP8" H 2150 7764 50  0000 C CNN
+F 1 "R_SDA" H 2150 7673 50  0000 C CNN
+F 2 "footprints:Jumper" H 2150 7500 50  0001 C CNN
+F 3 "~" H 2150 7500 50  0001 C CNN
+	1    2150 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5F20A9E7
+P 3125 5350
+F 0 "#PWR0109" H 3125 5100 50  0001 C CNN
+F 1 "GND" H 3130 5177 50  0000 C CNN
+F 2 "" H 3125 5350 50  0001 C CNN
+F 3 "" H 3125 5350 50  0001 C CNN
+	1    3125 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 5F20B30B
+P 3125 5650
+F 0 "#PWR0110" H 3125 5500 50  0001 C CNN
+F 1 "VCC" H 3140 5823 50  0000 C CNN
+F 2 "" H 3125 5650 50  0001 C CNN
+F 3 "" H 3125 5650 50  0001 C CNN
+	1    3125 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0111
+U 1 1 5F20BB8F
+P 3075 6900
+F 0 "#PWR0111" H 3075 6750 50  0001 C CNN
+F 1 "VCC" H 3090 7073 50  0000 C CNN
+F 2 "" H 3075 6900 50  0001 C CNN
+F 3 "" H 3075 6900 50  0001 C CNN
+	1    3075 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 5F20C25A
+P 3075 6600
+F 0 "#PWR0112" H 3075 6350 50  0001 C CNN
+F 1 "GND" H 3080 6427 50  0000 C CNN
+F 2 "" H 3075 6600 50  0001 C CNN
+F 3 "" H 3075 6600 50  0001 C CNN
+	1    3075 6600
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3125 5950 2    50   Input ~ 0
+SCL
+Text GLabel 3050 7200 2    50   Input ~ 0
+SCL
+Text GLabel 3125 6200 2    50   Input ~ 0
+SDA
+Text GLabel 3050 7500 2    50   Input ~ 0
+SDA
+Wire Wire Line
+	1125 6850 1450 6850
+Wire Wire Line
+	1450 6850 1450 5650
+Wire Wire Line
+	1450 5650 1825 5650
+Wire Wire Line
+	1125 6950 1575 6950
+Wire Wire Line
+	1575 6950 1575 6925
+Wire Wire Line
+	1575 5925 1825 5925
+Wire Wire Line
+	1125 7050 1675 7050
+Wire Wire Line
+	1675 7050 1675 6625
+Wire Wire Line
+	1675 6200 1825 6200
+Wire Wire Line
+	2425 5350 3125 5350
+Wire Wire Line
+	2425 5650 3125 5650
+Wire Wire Line
+	2425 5925 3125 5925
+Wire Wire Line
+	3125 5925 3125 5950
+Wire Wire Line
+	2425 6200 3125 6200
+Wire Wire Line
+	2450 6625 3075 6625
+Wire Wire Line
+	3075 6625 3075 6600
+Wire Wire Line
+	2450 6925 3075 6925
+Wire Wire Line
+	3075 6925 3075 6900
+Wire Wire Line
+	2450 7200 3050 7200
+Wire Wire Line
+	2450 7500 3050 7500
+Wire Wire Line
+	1850 6625 1675 6625
+Connection ~ 1675 6625
+Wire Wire Line
+	1675 6625 1675 6200
+Wire Wire Line
+	1850 6925 1575 6925
+Connection ~ 1575 6925
+Wire Wire Line
+	1575 6925 1575 5925
+Wire Wire Line
+	1850 7200 1450 7200
+Wire Wire Line
+	1450 7200 1450 6850
+Connection ~ 1450 6850
+Wire Wire Line
+	1850 7500 1350 7500
+Wire Wire Line
+	1350 7500 1350 6750
+Wire Wire Line
+	1350 6750 1125 6750
+Wire Wire Line
+	1125 5350 1125 6750
+Wire Wire Line
+	1125 5350 1825 5350
+Connection ~ 1125 6750
 $EndSCHEMATC
