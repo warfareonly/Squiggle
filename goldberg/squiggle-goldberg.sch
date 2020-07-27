@@ -690,7 +690,6 @@ Text GLabel 7000 5400 0    50   Input ~ 0
 COL0
 Text GLabel 8400 5800 2    50   Input ~ 0
 ROW3
-NoConn ~ 7000 4700
 NoConn ~ 7000 5300
 NoConn ~ 8400 4700
 NoConn ~ 8400 4900
@@ -1080,4 +1079,6 @@ Wire Wire Line
 Wire Wire Line
 	1125 5350 1825 5350
 Connection ~ 1125 6750
+Text GLabel 7000 4700 0    50   Input ~ 0
+LED
 $EndSCHEMATC
