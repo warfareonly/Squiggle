@@ -1,4 +1,4 @@
-18679129945145053
+18670269369406053
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82079,7 +82079,7 @@ LED_WS2812B_4Pad
 http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf
 LED NeoPixel
 0
-4
+16
 4
 footprints
 SSD_1306_128x32
