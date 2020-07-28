@@ -8,7 +8,7 @@ import sys
 import os
 import pcbnew
 
-this_dir = os.path.dirname(os.path.realpath(__file__))
+this_dir = "/Users/bharatgarhewal/Desktop/keyboard/Squiggle/goldberg"
 master_pcb = os.path.join(this_dir, 'squiggle-goldberg.kicad_pcb')
 base_pcb = os.path.join(this_dir, 'generated_pcb', 'base', 'base.kicad_pcb')
 middle_pcb = os.path.join(this_dir, 'generated_pcb', 'middle',
@@ -37,6 +37,9 @@ def is_brace(module):
 
 def is_brace_not_for_top(module):
     return module.GetReference().startswith('BraceNotTop')
+
+def is_brace_for_top(module):
+    return not module.GetReference().startswith('BraceNotTop')
 
 
 def delete_electronics(board):
@@ -104,19 +107,23 @@ def generate_top_pcb():
     board = pcbnew.LoadBoard(master_pcb)
     edge_cuts_layer_id = board.GetLayerID('Edge.Cuts')
     print('Creating top PCB: %s' % top_pcb)
-    delete_electronics(board)
-    for module in board.GetModules():
-        is_brace_for_top = not is_brace_not_for_top(module)
-        if is_brace(module) and is_brace_for_top:
-            continue
-        ref = module.GetReference()
-        is_mount_for_top = ref.startswith(
-            'Mount') and not ref.startswith('MountNotTop')
-        if is_mount_for_top:
-            continue
-        board.Delete(module)
+    print('Deleting electronics from top PCB.')
+    
+    # board.Save(top_pcb + "_no_elec.kicad_pcb")
+    # for module in board.GetModules():
+    #     is_brace_for_top = is_brace_for_top(module)
+    #     if is_brace(module) and is_brace_for_top:
+    #         continue
+    #     ref = module.GetReference()
+    #     is_mount_for_top = ref.startswith(
+    #         'Mount') and not ref.startswith('MountNotTop')
+    #     if is_mount_for_top:
+    #         continue
+    #     board.Delete(module)
     delete_tracks(board)
     for d in board.GetDrawings():
+        print('New drawing!')
+        print(d.GetLayerName())
         if type(d) is pcbnew.TEXTE_PCB:
             if d.GetThickness() == ALL_LAYERS_TEXT_THICKNESS:
                 continue
@@ -125,11 +132,17 @@ def generate_top_pcb():
                 if d.GetWidth() == ALL_LAYERS_WIDTH:
                     continue
         if d.GetLayerName() == 'Eco1.User':
-            is_for_top_plate = d.GetWidth() != NOT_TOP_PLATE_WIDTH
+            print(' %s' % d.GetWidth())
+            is_for_top_plate = d.GetWidth() == (NOT_TOP_PLATE_WIDTH - 10)
             if is_for_top_plate:
                 d.SetLayer(edge_cuts_layer_id)
                 continue
         board.Delete(d)
+    for d in board.GetModules():
+        print(d.GetLayerName())
+        if d.GetLayerName() != 'Edge.Cuts' or d.GetLayerName() != 'Eco1.User':
+            board.Delete(d)
+    # delete_electronics(board)
     refill_zones(board)
     board.Save(top_pcb)
 
